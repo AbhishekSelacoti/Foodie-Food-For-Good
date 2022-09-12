@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">foodieapp</string>
+    <string name="sundaymenu">Menu
+Veg Manchurian, Fried Rice,
+        Moongi Masari Daal, Chocolate Icecream</string>
+    <string name="sundaybrek">Paneer Parantha, Sprouts, Tea, Coffee</string>
+    <string name="sundaylun">Amritsari Channa, Tandoori Roti, Pudina Chutney</string>
+</resources>

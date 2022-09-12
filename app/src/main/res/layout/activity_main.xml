@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+    android:padding="10dp"
+
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/imageView"
+        android:text="Sign in" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@+id/btnsignin"
+        android:layout_marginTop="6dp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/staffsignin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/btnsignup"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        android:text="Staff Sign in" />-->
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="177dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/icon600" />
+
+
+</RelativeLayout>
